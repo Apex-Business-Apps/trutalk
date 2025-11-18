@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+build/
+dist/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Vercel
+.vercel
+
+# Expo
+.expo/
+.expo-shared/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Build artifacts
+*.tsbuildinfo
+.turbo/
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+# Mobile
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Detox
+android/app/build/
+ios/build/

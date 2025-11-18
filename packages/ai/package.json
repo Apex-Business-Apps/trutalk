@@ -1,0 +1,21 @@
+{
+  "name": "@trutalk/ai",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^6.2.0",
+    "@google-cloud/text-to-speech": "^5.1.0",
+    "@google-cloud/translate": "^8.0.2",
+    "deepl-node": "^1.11.0",
+    "openai": "^4.24.1",
+    "@trutalk/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
