@@ -67,7 +67,7 @@ export default function Auth() {
                 id="email"
                 type="email"
                 value={email}
-                onChange={(e: ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
+                onChange={(e: ChangeEvent<HTMLInputElement>) => setEmail(e.currentTarget.value)}
                 required
               />
             </div>
@@ -79,7 +79,7 @@ export default function Auth() {
                 id="password"
                 type="password"
                 value={password}
-                onChange={(e: ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
+                onChange={(e: ChangeEvent<HTMLInputElement>) => setPassword(e.currentTarget.value)}
                 required
               />
             </div>
